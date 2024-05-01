@@ -1,7 +1,7 @@
 from __future__ import annotations
 from threading import Thread, Lock
-from serial import Serial, SerialException
-from serial.tools.list_ports import comports
+from serial import Serial, SerialException # type: ignore
+from serial.tools.list_ports import comports # type: ignore
 
 import tkinter as tk
 import tkinter.ttk as ttk
