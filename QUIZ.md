@@ -9,7 +9,7 @@ The DevBoard manages incoming serial messages using interrupt methods. When a se
 
 ### What does `detached_callback` do? What would happen if it wasn't used?
 
-It serves as a mechanism to prevent the user interface from becoming unresponsive in scenarios where certain code operations take an extended period to execute.
+It serves as a mechanism to prevent the user interface from becoming unresponsive in scenarios where certain code operations take an extended period to execute..
 
 
 ### What does `LockedSerial` do? Why is it _necessary_?
